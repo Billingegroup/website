@@ -1,7 +1,7 @@
 language: python
 env:
-#  global:
-#    - secure: "VQmxw+HfkGaDtPqZGq9TWqXq9Rikv4itHw8tAQ+YqZBYDIP+68NcNEV092NR/tN3E+4gWLLaS6vezeasBBecq+vZyjJCZEAZt5L07Dgomrtz4GrSt+depBy0DQLy2utOxjEE4+KwISkwNbMgmBBzkp+7FSxYo0ZMbDnmup6S2YZOB/3nXSLvZrV70SMfUizUHneiMWjflWXl5svFxhz5WRwlv1ptMAA2zodsYkXBclIgSeXPZs6S8BcNW0ilzKkmWulT13VQz4/rulS74HSTXLuLfHWn3I3SbRps6k/hLAhbF8ZUmWfskYAo+MSNFASo9sb/RRCCCbfbUlqkpzIb/yoiDHVQbqCEK6qE65GxYImxLVzmRA62CGZCSnuDCn+6v1CKfyY5keGl4twXxJc2cuxaFrPfVwGh5e5O6qfPVvV+oQbDO6S5qmUwBp3cF9PG9XBabF7bTN5j0+cMn0I+0fzGSVEEpx9sPvbIO2DolHJLG3LkPr2Mj6sJ8+qLFYHJq4UiyGEMMjcDl7tAxH79+l45bvQcAR2ZqwvPk7brFr1wdDqzTuX4iPtImystl7uCLHcRTYz7uWJ7iE65AVOnB5u4mLRgU+xuLpV/yy9zTpOe74dBWqbNm0BTkL+TcvdqPt7tLMVSbJkEoo/NXxmhkgr0WHpvQIOYQedqmvnp3Eg="
+  global:
+    - secure: "exW+GR0DBdJxdUpK+kpaqmU/sUxE3BD8U/7Tbe9cqMe8PUkuctt3+WZnL7q8S/Bmtn4hpXVUj1hKVx0em+OEXT7hkm7P0WSzmmcIJnM/dSWlDOfNxJ7ns/GyeSmkDlVP+TO8j3Lk1bAN8UMYGMNMnoc4Zrt8TOldcrpDyDT6aVbBJHVridW2Blcu9aNlj80kOmQ/cPvGMfHk/nWR154kEnBQIk/BmXOiEkpGyCFkONrwF4dN1+IdrB4FmHbp0hcZLsJwuS751PvEZFdbt92HoMNH4lj6cQgt1MSM82lajFy5Y7uC0i15csgy6tKDkvlZlVZKH4ecyggummggEC7lMVWxDuQI5sTHWRCH2IgB9qvd5UmLErXfXqIU7seYxzEO+9p5mTEjMachUXQAJImuatb1tOo5s9hzPgFr5r7UvoMCXJWoE4gs3olIrP2exBuuj3aNtIg8gloS3YbPBMJQ1+bp1kNbX+4jWal9uPX+tDQIsGLsWK5gKJDsBnw4IAewwP0gB2TxSKh+10aOmkXzJuUuVlVQPUH+lo5mw+h9XVh9wbP1mfXT/5xs+9QT8tlqV2ECbHbw0Cg4kC6Xq1PeZsr/bbkZ8hJefSAa4tu2pO4hca+9gYJrb14NAzs8da3Hc3wlOPvMUHhwGEM8tX1nLZhAhIWTUrYCV7rTjXgE3XE="
 
 matrix:
   include:
@@ -26,5 +26,5 @@ install:
 
 script:
   - regolith build html;
-#    doctr deploy --deploy-repo ergs/ergs.github.io .;
+    doctr deploy --deploy-repo billingegroup/billingegroup.github.io .;
 

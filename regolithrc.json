@@ -1,15 +1,15 @@
-{"groupname": "ERGS",
+{"groupname": "BillingeGroup",
  "databases": [
-  {"name": "ergs-public",
-   "url": "http://github.com/ergs/rg-db-public.git",
+  {"name": "billingegroup-public",
+   "url": "http://github.com/billingegroup/rg-db-public.git",
    "public": true,
    "path": "db"}
  ],
  "deploy": [
-  {"name": "ergs.github.io",
-   "url": "git@github.com:ergs/ergs.github.io.git",
+  {"name": "billingegroup.github.io",
+   "url": "git@github.com:billingegroup/billingegroup.github.io.git",
    "src": "html"
    }
   ],
- "cname": "www.ergs.sc.edu"
+// "cname": "www.billingegroup.sc.edu"
 }
