@@ -1,2 +1,3 @@
-# website
-Wesbite configuration repo for ERGS
+Website
+-------
+Wesbite configuration repo for the Billinge Group
