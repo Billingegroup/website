@@ -26,6 +26,7 @@ install:
   - pip install git+git://github.com/ergs/regolith.git
 
 script:
+  - set -e
   - regolith build html;
     doctr deploy --deploy-repo billingegroup/billingegroup.github.io .;
 
