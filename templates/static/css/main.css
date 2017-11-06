@@ -1077,7 +1077,7 @@
 
 	body {
 		background: #f0f0f0;
-		font-family: 'Montserrat';
+		font-family: 'Montserrat', sans-serif;
 		font-weight: 300;
         color: #202020;
 	}
@@ -1094,7 +1094,7 @@
 		}
 
 	input, textarea, select {
-		font-family: 'Montserrat';
+		font-family: 'Montserrat', sans-serif;
 		font-weight: 300;
 		color: #777;
 	}
