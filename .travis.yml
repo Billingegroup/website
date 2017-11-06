@@ -22,7 +22,8 @@ before_install:
     conda info -a;
 
 install:
-  - conda install doctr regolith;
+  - conda install doctr;
+  - pip install git+git://github.com/ergs/regolith.git
 
 script:
   - regolith build html;
