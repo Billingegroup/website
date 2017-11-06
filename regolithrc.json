@@ -1,7 +1,7 @@
 {"groupname": "BillingeGroup",
  "databases": [
   {"name": "billingegroup-public",
-   "url": "http://github.com/billingegroup/rg-db-public.git",
+   "url": "git@github.com:Billingegroup/rg-db-public.git",
    "public": true,
    "path": "db"}
  ],
