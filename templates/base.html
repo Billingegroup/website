@@ -24,7 +24,13 @@
             <li><a class="icon fa-home" href="{{root}}/index.html"><span>About</span></a></li>
             <li>
               <a class="icon fa-users" href="{{root}}/people"><span>People</span></a>
-              <ul style="list-style:none;">{% for p in people %}
+              <ul style="list-style:none;">{% for p in people if p.get('active', True) %}
+                <li><a href="{{root}}/people/{{p['_id']}}.html">{{p['name']}}</a></li>
+              {% endfor %}</ul>
+            </li>
+            <li>
+              <a class="icon fa-users" href="{{root}}/former"><span>Former Members</span></a>
+              <ul style="list-style:none;">{% for p in people if not p.get('active', True) %}
                 <li><a href="{{root}}/people/{{p['_id']}}.html">{{p['name']}}</a></li>
               {% endfor %}</ul>
             </li>
