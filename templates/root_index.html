@@ -22,7 +22,7 @@ The Billinge Group is involved in a large number of computational and experiment
 
 <a name="who" />
 <h1><a href="#who">Who are we?</a></h1><br/>
-{% for p in people %}
+{% for p in people if p.get('active', True) %}
   <a href="{{root}}/people/{{p['_id']}}.html" class="image-link">
     <img src="{{p.get('avatar')}}" style="width:100px;height:100px;"/>
   </a>
