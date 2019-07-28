@@ -3,7 +3,7 @@ Website
 Wesbite configuration repo for the Billinge Group
 
 
-https://regro.github.io/regolith-docs
+https://billingegroup.github.io/
 
 
 .. image:: https://travis-ci.org/Billingegroup/website.svg?branch=master
