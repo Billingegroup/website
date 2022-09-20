@@ -1,0 +1,15 @@
+{"groupname": "The Billinge Group",
+ "databases": [
+   {"name": "billingegroup-public",
+   "url": "..",
+   "public": true,
+   "path": "db",
+   "local": true}
+ ],
+ "deploy": [
+  {"name": "billingegroup.github.io",
+   "url": "git@github.com:billingegroup/billingegroup.github.io.git",
+   "src": "html"
+   }
+  ]
+}
