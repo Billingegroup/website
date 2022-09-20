@@ -1,9 +1,9 @@
 {"groupname": "The Billinge Group",
  "databases": [
    {"name": "billingegroup-public",
-   "url": "..",
+   "url": ".",
    "public": true,
-   "path": "../rg-db-public/db",
+   "path": "../rg-db-publicdb",
    "local": true}
  ],
  "deploy": [
