@@ -3,7 +3,7 @@
    {"name": "billingegroup-public",
    "url": "..",
    "public": true,
-   "path": "db",
+   "path": "../rg-db-public/dbdb",
    "local": true}
  ],
  "deploy": [
